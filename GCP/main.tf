@@ -1,7 +1,7 @@
 provider "google"{
  region="us.west"
 }
-module "compute" {
+module "compute1" {
   source = "./modules/compute"
 }
 
